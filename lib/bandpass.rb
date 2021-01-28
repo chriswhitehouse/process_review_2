@@ -1,9 +1,9 @@
-def bandpass(soundarray)
+def bandpass(soundarray, low_threshold = 40)
   output_array = []
 
   soundarray.each do |frequency|
-    if frequency < 40
-      output_array.push(40)
+    if frequency < low_threshold
+      output_array.push(low_threshold)
     elsif frequency > 1000
       output_array.push(1000)
     else
