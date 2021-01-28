@@ -16,4 +16,8 @@ describe '#bandpass' do
   it 'should recieve [50, 50, 50] and return [50, 50, 50]' do
     expect(bandpass([50, 50, 50])).to eq [50, 50, 50]
   end
+
+  it 'should recieve [30, 30, 30] and return [40, 40, 40]' do
+    expect(bandpass([30, 30, 30])).to eq [40, 40, 40]
+  end
 end
