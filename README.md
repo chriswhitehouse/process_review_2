@@ -35,7 +35,7 @@ Testing the application of default frequencies to a single frequency
 | [30]       | [40]       |
 | [1010]       | [1000]       |
 Testing the application of default frequencies to multiple frequencies through the Array
-| [50, 500, 50]       | [50, 500, 50]       |
+| [50, 50, 50]       | [50, 50, 50]       |
 | [30, 30, 30]       | [40, 40, 40]       |
 | [1010, 1010, 1010]       | [1000, 1000, 1000]       |
 | [30, 1010, 30]       | [40, 1000, 40]       |
